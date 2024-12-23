@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #F9F5ED;
+}
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+    /* gap: 1000px; */
+    font-weight: 500;
+}
+/* CSS for Main section */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+.leftmain{
+    width: 40%;
+}
+.leftmain h1{
+    font-size: 67px;
+}
+.leftmain p{
+    margin:5% 0;
+}
+.leftmain button{
+    background-color: green;
+    border: none;
+    border-radius: 7px;
+    padding: 15px 20px;
+    color: white;
+}
+
+.rightmain{
+    width: 60%;
+}
